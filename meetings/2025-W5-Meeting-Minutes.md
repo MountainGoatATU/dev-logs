@@ -1,0 +1,44 @@
+Date: 2025-10-14
+Attendees:
+- Alekss
+- Samuel
+- Jakub
+- Martin
+--- 
+# Agenda
+- Evaluation
+- Start Coding (Preparation and Jira management)
+- Keepass source code (Kubik)
+- User flow
+
+
+--- 
+# Notes
+User flow:
+Wizard (First time setup) > General info > Create First Vault > Master Password Creation > Log into the vault with MP
+
+Database: Non-relational MongoDB (encrypted blobs)
+
+Console Application > WPF: Low-fidelity prototype
+
+WPF: Console Application Encryption and hashing testing
+
+Login process and encryption process
+
+Difference between encryption and hashing
+
+Nonce and salt exploration 
+
+---
+# Decisions
+
+- Record structure 
+- Jira tasks
+- Start programming WPF application
+- Encryption 
+- 
+
+---
+# Next Meeting
+- Evaluation 
+- Coding
