@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-meeting-minutes/2025-W6.1-meeting.md",
+                "file": "02-finished-work/moscow-example.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-W6.1-meeting"
+              "title": "moscow-example"
             }
           }
         ]
@@ -34,19 +34,6 @@
         "id": "2918e4948e625741",
         "type": "tabs",
         "children": [
-          {
-            "id": "fd9e6edac8193c01",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
           {
             "id": "b0f30f2288ca41ad",
             "type": "leaf",
@@ -73,8 +60,22 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "16d26ce74c35f43b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-meeting-minutes/2025-W6.1-meeting.md",
+                "file": "02-finished-work/moscow-example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-W6.1-meeting"
+              "title": "Backlinks for moscow-example"
             }
           },
           {
@@ -113,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-meeting-minutes/2025-W6.1-meeting.md",
+                "file": "02-finished-work/moscow-example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-W6.1-meeting"
+              "title": "Outgoing links from moscow-example"
             }
           },
           {
@@ -142,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-meeting-minutes/2025-W6.1-meeting.md",
+                "file": "02-finished-work/moscow-example.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-W6.1-meeting"
+              "title": "Outline of moscow-example"
             }
           }
         ]
@@ -166,23 +167,28 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-livesync:P2P Replicator": false,
+      "obsidian-livesync:Show Log": false,
+      "obsidian-livesync:Replicate": false,
+      "obsidian-livesync:Show Customization sync": false
     }
   },
   "active": "f2aba2bbf478c1b4",
   "lastOpenFiles": [
-    "01-meeting-minutes/2025-W5.2-meeting.md",
+    "Untitled.base",
+    "02-finished-work/moscow-example.md",
+    "00-weekly-diary/alekss/2025-W1.md",
     "01-meeting-minutes/2025-W6.1-meeting.md",
+    "01-meeting-minutes/2025-W5.2-meeting.md",
     "01-meeting-minutes/2025-W4-meeting.md",
     "01-meeting-minutes/2025-W5.1-meeting.md",
     "README.md",
-    "02-finished-work/moscow-example.md",
     "02-finished-work",
     "01-meeting-minutes",
     "00-weekly-diary/samuel/2025-W1.md",
     "00-weekly-diary/martin/2025-W1.md",
     "00-weekly-diary/jakub/2025-W1.md",
-    "00-weekly-diary/alekss/2025-W1.md",
     "00-weekly-diary/samuel",
     "00-weekly-diary/martin",
     "00-weekly-diary/jakub",
@@ -196,7 +202,6 @@
     "meetings/2025-W4-meeting-minutes.md",
     "meetings",
     "martin/2025-W1.md",
-    "martin",
     "jakub/2025-W1.md",
     "alekss/2025-W1.md",
     "Welcome.md"
