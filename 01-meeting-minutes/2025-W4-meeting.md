@@ -1,10 +1,9 @@
-
-Date: 2025-10-7
+Date: 2025-10-07
 Attendees:
-- Alekss Belavskis
-- Samuel Kocych
-- Jakub Lukac
-- Martin Strelec
+- Alekss
+- Samuel
+- Jakub
+- Martin
 --- 
 # Agenda
 - Project charter
@@ -15,21 +14,18 @@ Attendees:
 - Diagrams and Low-Fi prototypes
 --- 
 # Notes
-Meetup on Tuesday (9.am - 11.am)
-Una meeting on Thursday (12.pm - 1.pm)
-
-**OWASP**
+Meetup on Tuesday (9am - 11am)
+Una meeting on Thursday (12pm - 1pm)
+## OWASP
 - Authentication
 - Authorization
 - Testing
 - CI/CD Security
 - Cryptographic Storage
 - Deserialization
-
-**Project Charter**:
+## Project Charter
 - Stakeholders
 - Stating vision
-
 ---
 # Decisions
 - Github Actions (CI/CD)
@@ -37,7 +33,6 @@ Una meeting on Thursday (12.pm - 1.pm)
 - Project Charter
 - Meetings
 - Communication channel
-
 ---
 # Next Meeting
 Evaluation
