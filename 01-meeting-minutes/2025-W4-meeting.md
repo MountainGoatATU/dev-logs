@@ -2,7 +2,7 @@ Date: 2025-10-07
 Attendees:
 - Alekss
 - Samuel
-- Jakub
+- Jakub 
 - Martin
 --- 
 # Agenda

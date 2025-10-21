@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "6b8b1036376ae3ee",
+    "id": "2f975605f884e46f",
     "type": "split",
     "children": [
       {
-        "id": "6d63c982d15b3a0f",
+        "id": "507b8c62a9d8c0cf",
         "type": "tabs",
         "children": [
           {
-            "id": "f2aba2bbf478c1b4",
+            "id": "bf37d5110760376d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-finished-work/moscow-example.md",
+                "file": "01-meeting-minutes/2025-W4-meeting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "moscow-example"
+              "title": "2025-W4-meeting"
             }
           }
         ]
@@ -27,15 +27,28 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "fa0cc5b4d12bbf6d",
+    "id": "e848a888dc88a7d7",
     "type": "split",
     "children": [
       {
-        "id": "2918e4948e625741",
+        "id": "0a2713a3b078e848",
         "type": "tabs",
         "children": [
           {
-            "id": "b0f30f2288ca41ad",
+            "id": "9d76699a252a8daf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "132ee3166999894d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -52,7 +65,7 @@
             }
           },
           {
-            "id": "0bfc2a1fa879790f",
+            "id": "6da8317d0d699550",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -60,42 +73,27 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "16d26ce74c35f43b",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "f817394198d26462",
+    "id": "a2cfe06894021a75",
     "type": "split",
     "children": [
       {
-        "id": "00c59362a132f0d4",
+        "id": "9d2764c04c2b93cd",
         "type": "tabs",
         "children": [
           {
-            "id": "c3fd273b5eb44135",
+            "id": "201fbdcdc79c2db3",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-finished-work/moscow-example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,25 +103,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for moscow-example"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "d9ed4adaa293e30a",
+            "id": "27d48360c4da0e27",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-finished-work/moscow-example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from moscow-example"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "62b1056be485dcb2",
+            "id": "a6bf25aa3823373a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -138,18 +135,17 @@
             }
           },
           {
-            "id": "cfb42ec386f23c3a",
+            "id": "f6d2834f9fcec0d6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-finished-work/moscow-example.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of moscow-example"
+              "title": "Outline"
             }
           }
         ]
@@ -162,10 +158,8 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-livesync:P2P Replicator": false,
@@ -174,36 +168,25 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "f2aba2bbf478c1b4",
+  "active": "bf37d5110760376d",
   "lastOpenFiles": [
-    "Untitled.base",
-    "02-finished-work/moscow-example.md",
-    "00-weekly-diary/alekss/2025-W1.md",
     "01-meeting-minutes/2025-W6.1-meeting.md",
-    "01-meeting-minutes/2025-W5.2-meeting.md",
-    "01-meeting-minutes/2025-W4-meeting.md",
-    "01-meeting-minutes/2025-W5.1-meeting.md",
+    "02-finished-work/moscow-example.md",
     "README.md",
     "02-finished-work",
+    "01-meeting-minutes/2025-W5.2-meeting.md",
+    "01-meeting-minutes/2025-W5.1-meeting.md",
+    "01-meeting-minutes/2025-W4-meeting.md",
     "01-meeting-minutes",
     "00-weekly-diary/samuel/2025-W1.md",
     "00-weekly-diary/martin/2025-W1.md",
     "00-weekly-diary/jakub/2025-W1.md",
+    "00-weekly-diary/alekss/2025-W1.md",
     "00-weekly-diary/samuel",
     "00-weekly-diary/martin",
     "00-weekly-diary/jakub",
     "00-weekly-diary/alekss",
     "00-weekly-diary",
-    "samuel/2025-W1.md",
-    "samuel",
-    "meetings/2025-W6.1-Meeting-Minutes.md",
-    "meetings/2025-W5.2-Meeting-Minutes.md",
-    "meetings/2025-W5.1-Meeting-Minutes.md",
-    "meetings/2025-W4-meeting-minutes.md",
-    "meetings",
-    "martin/2025-W1.md",
-    "jakub/2025-W1.md",
-    "alekss/2025-W1.md",
     "Welcome.md"
   ]
 }
