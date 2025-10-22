@@ -1,1 +1,12 @@
-{}
+{
+  "cssTheme": "Vanilla AMOLED Color",
+  "enabledCssSnippets": [
+    "Colored Sidebar Items",
+    "CyanVoxel's General Tweaks"
+  ],
+  "interfaceFontFamily": "JetBrainsMono Nerd Font Mono,JetBrains Mono",
+  "textFontFamily": "JetBrainsMono Nerd Font Mono,JetBrains Mono",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono,JetBrains Mono",
+  "accentColor": "",
+  "theme": "system"
+}

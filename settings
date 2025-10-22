@@ -1,0 +1,231 @@
+This file contains Self-hosted LiveSync settings as YAML.
+Except for the `livesync-setting` code block, we can add a note for free.
+
+If the name of this file matches the value of the "settingSyncFile" setting inside the `livesync-setting` block, LiveSync will tell us whenever the settings change. We can decide to accept or decline the remote setting. (In other words, we can back up this file by renaming it to another name).
+
+We can perform a command in this file.
+- `Parse setting file` : load the setting from the file.
+
+**Note** Please handle it with all of your care if you have configured to write credentials in.
+
+
+````yaml:livesync-setting
+remoteType: ""
+useCustomRequestHandler: false
+couchDB_URI: https://x0rtex.fly.dev/
+couchDB_USER: x0rtex
+couchDB_PASSWORD: Adamst0wn4289!!$
+couchDB_DBNAME: goatvault
+liveSync: true
+syncOnSave: false
+syncOnStart: false
+savingDelay: 200
+lessInformationInLog: false
+gcDelay: 0
+versionUpFlash: ""
+minimumChunkSize: 20
+longLineThreshold: 250
+showVerboseLog: false
+suspendFileWatching: false
+trashInsteadDelete: true
+periodicReplication: false
+periodicReplicationInterval: 60
+syncOnFileOpen: false
+encrypt: true
+passphrase: Adamst0wn4289!!$
+usePathObfuscation: false
+doNotDeleteFolder: true
+resolveConflictsByNewerFile: false
+batchSave: false
+batchSaveMinimumDelay: 5
+batchSaveMaximumDelay: 60
+deviceAndVaultName: ""
+usePluginSettings: false
+showOwnPlugins: false
+showStatusOnEditor: true
+showStatusOnStatusbar: true
+showOnlyIconsOnEditor: false
+hideFileWarningNotice: false
+usePluginSync: true
+autoSweepPlugins: true
+autoSweepPluginsPeriodic: true
+notifyPluginOrSettingUpdated: false
+checkIntegrityOnSave: false
+batch_size: 25
+batches_limit: 25
+useHistory: true
+disableRequestURI: true
+skipOlderFilesOnSync: true
+checkConflictOnlyOnOpen: false
+showMergeDialogOnlyOnActive: false
+syncInternalFiles: false
+syncInternalFilesBeforeReplication: false
+syncInternalFilesIgnorePatterns: \/node_modules\/, \/\.git\/, \/obsidian-livesync\/
+syncInternalFilesTargetPatterns: ""
+syncInternalFilesInterval: 60
+ignoreVersionCheck: false
+lastReadUpdates: 25
+deleteMetadataOfDeletedFiles: true
+syncIgnoreRegEx: ""
+syncOnlyRegEx: ""
+customChunkSize: 60
+readChunksOnline: true
+watchInternalFileChanges: true
+automaticallyDeleteMetadataOfDeletedFiles: 0
+disableMarkdownAutoMerge: false
+writeDocumentsIfConflicted: true
+useDynamicIterationCount: false
+syncAfterMerge: false
+configPassphraseStore: ""
+permitEmptyPassphrase: false
+useIndexedDBAdapter: true
+useTimeouts: false
+writeLogToTheFile: false
+doNotPaceReplication: false
+hashCacheMaxCount: 300
+hashCacheMaxAmount: 50
+concurrencyOfReadChunksOnline: 30
+minimumIntervalOfReadChunksOnline: 25
+hashAlg: xxhash64
+suspendParseReplicationResult: false
+doNotSuspendOnFetching: false
+useIgnoreFiles: false
+ignoreFiles: .gitignore
+syncOnEditorSave: false
+pluginSyncExtendedSetting:
+  PLUGIN_DATA/obsidian-livesync:
+    key: PLUGIN_DATA/obsidian-livesync
+    mode: 1
+    files:
+      - plugins/obsidian-livesync/data.json
+  PLUGIN_MAIN/obsidian-livesync:
+    key: PLUGIN_MAIN/obsidian-livesync
+    mode: 1
+    files:
+      - plugins/obsidian-livesync/styles.css
+      - plugins/obsidian-livesync/main.js
+      - plugins/obsidian-livesync/manifest.json
+  CONFIG/core-plugins.json:
+    key: CONFIG/core-plugins.json
+    mode: 1
+    files:
+      - core-plugins.json
+  SNIPPET/Colored Sidebar Items.css:
+    key: SNIPPET/Colored Sidebar Items.css
+    mode: 1
+    files:
+      - snippets/Colored Sidebar Items.css
+  SNIPPET/CyanVoxel's General Tweaks.css:
+    key: SNIPPET/CyanVoxel's General Tweaks.css
+    mode: 1
+    files:
+      - snippets/CyanVoxel's General Tweaks.css
+  THEME/Vanilla AMOLED Color:
+    key: THEME/Vanilla AMOLED Color
+    mode: 1
+    files:
+      - themes/Vanilla AMOLED Color/theme.css
+      - themes/Vanilla AMOLED Color/manifest.json
+  CONFIG/community-plugins.json:
+    key: CONFIG/community-plugins.json
+    mode: 1
+    files:
+      - community-plugins.json
+  CONFIG/hotkeys.json:
+    key: CONFIG/hotkeys.json
+    mode: 1
+    files:
+      - hotkeys.json
+  CONFIG/templates.json:
+    key: CONFIG/templates.json
+    mode: 1
+    files:
+      - templates.json
+  CONFIG/workspace.json:
+    key: CONFIG/workspace.json
+    mode: 2
+    files:
+      - workspace.json
+  CONFIG/graph.json:
+    key: CONFIG/graph.json
+    mode: 1
+    files:
+      - graph.json
+  CONFIG/appearance.json:
+    key: CONFIG/appearance.json
+    mode: 2
+    files:
+      - appearance.json
+  CONFIG/app.json:
+    key: CONFIG/app.json
+    mode: 1
+    files:
+      - app.json
+syncMaxSizeInMB: 50
+settingSyncFile: settings
+writeCredentialsForSettingSync: true
+notifyAllSettingSyncFile: true
+isConfigured: true
+settingVersion: 10
+enableCompression: false
+accessKey: ""
+bucket: ""
+endpoint: ""
+region: auto
+secretKey: ""
+useEden: false
+maxChunksInEden: 10
+maxTotalLengthInEden: 1024
+maxAgeInEden: 10
+disableCheckingConfigMismatch: false
+displayLanguage: def
+enableChunkSplitterV2: false
+disableWorkerForGeneratingChunks: false
+processSmallFilesInUIThread: false
+notifyThresholdOfRemoteStorageSize: 0
+usePluginSyncV2: true
+usePluginEtc: false
+handleFilenameCaseSensitive: false
+doNotUseFixedRevisionForChunks: true
+showLongerLogInsideEditor: false
+sendChunksBulk: false
+sendChunksBulkMaxSize: 1
+useSegmenter: false
+useAdvancedMode: true
+usePowerUserMode: true
+useEdgeCaseMode: true
+enableDebugTools: false
+suppressNotifyHiddenFilesChange: false
+syncMinimumInterval: 2000
+P2P_Enabled: false
+P2P_AutoAccepting: 0
+P2P_AppID: self-hosted-livesync
+P2P_roomID: ""
+P2P_passphrase: ""
+P2P_relays: wss://exp-relay.vrtmrz.net/
+P2P_AutoBroadcast: false
+P2P_AutoStart: false
+P2P_AutoSyncPeers: ""
+P2P_AutoWatchPeers: ""
+P2P_SyncOnReplication: ""
+P2P_RebuildFrom: ""
+P2P_AutoAcceptingPeers: ""
+P2P_AutoDenyingPeers: ""
+P2P_IsHeadless: false
+doctorProcessedVersion: 0.25.0
+bucketCustomHeaders: ""
+couchDB_CustomHeaders: ""
+useJWT: false
+jwtAlgorithm: ""
+jwtKey: ""
+jwtKid: ""
+jwtSub: ""
+jwtExpDuration: 5
+useRequestAPI: false
+bucketPrefix: ""
+chunkSplitterVersion: v3-rabin-karp
+E2EEAlgorithm: v2
+processSizeMismatchedFiles: false
+forcePathStyle: true
+
+````

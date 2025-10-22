@@ -4,24 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "507b8c62a9d8c0cf",
+        "id": "63e1d9bde41d2e11",
         "type": "tabs",
         "children": [
           {
-            "id": "bf37d5110760376d",
+            "id": "cc80017c31b97b3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-meeting-minutes/2025-W6.1-meeting.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-W6.1-meeting"
+              "title": "README"
+            }
+          },
+          {
+            "id": "340c90f086fd7e16",
+            "type": "leaf",
+            "state": {
+              "type": "log-log",
+              "state": {},
+              "icon": "view-log",
+              "title": "Self-hosted LiveSync Log"
+            }
+          },
+          {
+            "id": "06168039956d133a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-meeting-minutes/2025-W0-meeting.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-W0-meeting"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,6 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "03-backlog/sprint1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +129,22 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for sprint1"
+            }
+          },
+          {
+            "id": "f6d2834f9fcec0d6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "settings.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of settings"
             }
           },
           {
@@ -112,11 +153,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "03-backlog/sprint1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from sprint1"
             }
           },
           {
@@ -135,28 +177,25 @@
             }
           },
           {
-            "id": "f6d2834f9fcec0d6",
+            "id": "55d8ad65bfca53c7",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
@@ -165,28 +204,47 @@
       "obsidian-livesync:P2P Replicator": false,
       "obsidian-livesync:Show Log": false,
       "obsidian-livesync:Replicate": false,
+      "templates:Insert template": false,
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "bf37d5110760376d",
+  "active": "06168039956d133a",
   "lastOpenFiles": [
-    "01-meeting-minutes/2025-W4-meeting.md",
-    "01-meeting-minutes/2025-W5.1-meeting.md",
-    "01-meeting-minutes/2025-W5.2-meeting.md",
-    "01-meeting-minutes/2025-W6.1-meeting.md",
-    "02-finished-work/moscow-example.md",
+    "01-backlog/sprint4.md",
+    "01-backlog/sprint3.md",
+    "01-backlog/sprint2.md",
+    "01-backlog/sprint1.md",
+    "02-meeting-minutes/2025-W1.1-meeting.md",
+    "02-meeting-minutes/2025-W0-meeting.md",
+    "02-meeting-minutes/2025-W4.1-meeting.md",
+    "02-meeting-minutes/2025-W4-meeting.md",
     "README.md",
-    "02-finished-work",
-    "01-meeting-minutes",
-    "00-weekly-diary/samuel/2025-W1.md",
-    "00-weekly-diary/martin/2025-W1.md",
     "00-weekly-diary/jakub/2025-W1.md",
-    "00-weekly-diary/alekss/2025-W1.md",
-    "00-weekly-diary/samuel",
-    "00-weekly-diary/martin",
+    "settings",
     "00-weekly-diary/jakub",
-    "00-weekly-diary/alekss",
     "00-weekly-diary",
-    "Welcome.md"
+    "03-backlog/sprint1.md",
+    "05-weekly-diary/samuel/2025-W1.md",
+    "05-weekly-diary/jakub/2025-W1.md",
+    "05-weekly-diary/martin/2025-W1.md",
+    "05-weekly-diary/alekss/2025-W1.md",
+    "05-weekly-diary/samuel",
+    "05-weekly-diary/jakub",
+    "05-weekly-diary/martin",
+    "05-weekly-diary/alekss",
+    "05-weekly-diary",
+    "03-research/owasp/00-index.md",
+    "03-research/cryptography/04-flow.md",
+    "03-research/cryptography/03-database-structure.md",
+    "03-research/cryptography/02-pseudorandom-rngs.md",
+    "03-research/cryptography/01-terminology.md",
+    "03-research/owasp",
+    "03-research/cryptography",
+    "04-finished-work/moscow-example.md",
+    "02-meeting-minutes/2025-W6.2-meeting.md",
+    "02-meeting-minutes/2025-W6.1-meeting.md",
+    "02-meeting-minutes/2025-W5.2-meeting.md",
+    "02-meeting-minutes/2025-W5.1-meeting.md",
+    "02-meeting-minutes/2025-W3.1-meeting.md"
   ]
 }
