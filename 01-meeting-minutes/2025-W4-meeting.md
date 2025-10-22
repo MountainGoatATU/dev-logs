@@ -1,0 +1,39 @@
+Date: 2025-10-07
+Attendees:
+- Alekss
+- Samuel
+- Jakub 
+- Martin
+--- 
+# Agenda
+- Project charter
+- OWASP
+- Vision Template
+- Cryptography sources
+- Meetings (Una and Tuesdays)
+- Diagrams and Low-Fi prototypes
+--- 
+# Notes
+Meetup on Tuesday (9am - 11am)
+Una meeting on Thursday (12pm - 1pm)
+## OWASP
+- Authentication
+- Authorization
+- Testing
+- CI/CD Security
+- Cryptographic Storage
+- Deserialization
+## Project Charter
+- Stakeholders
+- Stating vision
+---
+# Decisions
+- Github Actions (CI/CD)
+- OWASP topics
+- Project Charter
+- Meetings
+- Communication channel
+---
+# Next Meeting
+Evaluation
+Start Coding (Preparation and Jira management)
