@@ -1,15 +1,18 @@
 #research #cryptography #user-flow
-## Create account (optional)
+# Account
+## Create account 
 - Choose **email** and **account password**
 - Create **salt** - random 16 bytes
 - Create **hash (derived key)** - *Argon2id* with **account password** + **salt**
 - Store **salt** and **hash** in database
-## Login to account (optional)
+## Login to account 
 - Enter **email** and **account password**
 - Retrieve stored **salt** with **email**
 - Create **hash (derived key)** - *Argon2id* with **account password** and **salt**
 - If **hash** matches **hash** from database
 	- Authenticate user
+
+# Vault
 ## Create vault
 - Choose **master password**
 - Create **salt** - random 16 bytes
