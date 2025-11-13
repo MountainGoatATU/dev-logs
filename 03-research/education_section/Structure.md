@@ -132,7 +132,7 @@
 
 ### 🔑 Authentication
 
-- Multi-Factor Authentication (MFA), Biometrics, WebAuthn
+- Multi-Factor Authentication (MFA), Biometrics, WebAuth
     
 - Secure device binding
     
