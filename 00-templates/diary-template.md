@@ -1,2 +1,2 @@
-#template #diary
+#diary
 {{date}}

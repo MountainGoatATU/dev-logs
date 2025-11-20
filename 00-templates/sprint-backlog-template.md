@@ -1,4 +1,4 @@
-#template #sprint
+#sprint
 ## {{title}} backlog
 **Start Date**: 
 **End Date**: 

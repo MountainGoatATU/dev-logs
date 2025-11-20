@@ -1,4 +1,4 @@
-#template #meeting
+#meeting
 **Date**: {{date}}
 **Attendees**:
 - A
