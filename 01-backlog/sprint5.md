@@ -1,11 +1,9 @@
-#template #sprint
+#sprint
 ## sprint5 backlog
 **Start Date**: November 4th, 2025
 **End Date**: November 11th, 2025
 
-
 ---
-
 
 | User Story (Jira ID) | Description                        | Epic           | Story Points | Finished |
 | -------------------- | ---------------------------------- | -------------- | ------------ | -------- |
