@@ -6,8 +6,8 @@ Backlog of tasks for each sprint
 Agenda, notes, decisions, etc from past meetings
 ## 03-research
 Notes from research on various topics
-## 04-finished-work
-Finished work such as project charter, moscow, etc
+## 04-presentables
+Finished work such as project charter, MoSCoW, etc
 ## 05-weekly-diary
 Individual weekly diaries for each person
 ## 06-education
