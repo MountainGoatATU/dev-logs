@@ -1,3 +1,4 @@
+#draft
 # Visual structure
 
 ---
@@ -318,4 +319,4 @@
 
 ---
 # UI Mockup
-![[a79e390f-4635-41ca-bd2c-4a6eb56f9989.png]]
+![[education-section.png]]
