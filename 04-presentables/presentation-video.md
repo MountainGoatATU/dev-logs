@@ -1,13 +1,16 @@
 #presentable
 ## Narrative
+The goat vault. Made by team mountain goat! Living on the mountains with mountain goats. Powered by 100% of goats. No goats were harmed during the making of this video.
+## Presentation
+*Duration: 10minutes*
 ### 1. Introduction
-*Speaker: A
+*Speaker: Martin
 Visuals: Our faces*
 - State our names and roles
 - Explain our project idea on a high level
 ### 2. Why We Came Up With the Idea
-*Speaker: B
-Visuals: Survey graphs, statistics*
+*Speaker: Alekss
+Visuals: Survey graphs, statistics, democratic vote*
 - Explain problems with breaches and people's password security habits
 	- Stats from password manager survey
 - Challenges us with new concepts
@@ -17,7 +20,7 @@ Visuals: Survey graphs, statistics*
 	- Teaches people about password security
 	- Has practical functionality
 ### 3. Planning & Research
-*Speaker: C
+*Speaker: Martin
 Visuals: Jira board, sprint burndown, research papers*
 - Focused on researching encryption, KDFs, zero-knowledge, etc
 - Supervisor meetings, budgeting, feasibility checks
@@ -25,38 +28,41 @@ Visuals: Jira board, sprint burndown, research papers*
 	- Jira and Agile project management methodologies
 	- Show visual of Jira board/sprint burndown
 ### 4. Requirements & Technical Design
-*Speaker: D*
+*Speaker: Jakub*
 *Visuals: ERD diagram, Architecture diagram
 - Show ERD diagram & Architecture diagram
 	- Python FastAPI backend
 	- C# MAUI frontend
 	- MongoDB database
+	- SQLite local copy
 - Explain tech stack choices
-	- Zero-knowledge design principles
 ### 5. Development of Prototype & Demo
-*Speaker: A*
+*Speaker: Sam, Martin
 *Visuals: Prototype Demo, GitHub, CI/CD pipeline*
 - Show screen recordings of:
 	- Onboarding screen
 	- Login/Register
 	- Creating vault and password entry
 	- Re-entering vault after creation
-	- Shamir(?) or other cool features
-- Show CI/CD pipeline
+	- Shamir(?) or other cool features (Martin)
 - Show GitHub organisation and source control
-- Teamwork
 ### 6. Difficulties & Problem Solving
-*Speaker: B*
-*Visuals: Ubuntu, CodeScene, Differences WPF vs MAUI*
-- No access to AWS
+*Speaker: 
+*Visuals: Ubuntu, CodeScene, Differences WPF vs MAUI, Code Coverage*
+- No access to AWS *Alekss*
 	- Using locally hosted server
-- Merging User Model and Vault Model
+- Merging User Model and Vault Model *Jakub*
 	- CodeScene: Coupling
-- Change from WPF to MAUI
+- Change from WPF to MAUI  *Martin*
 	- Connectivity APIs
-- Change from ChaCha to AES
+- Change from ChaCha to AES *Sam*
 	- After meeting with Shawn
 ### 7. Conclusion
-*Speaker: D*
+*Speaker: Martin
 *Visuals: ...*
 - 
+## Script
+### 1. Introduction
+**Martin:** 
+### 2. Why We Came Up With the Idea
+**Aleks**
