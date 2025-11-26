@@ -33,16 +33,11 @@ Visuals: Jira board, sprint burndown, research papers*
 	- MongoDB database
 	- SQLite local copy
 - Explain tech stack choices
-## 5. Development of Prototype & Demo
+## 5. Development 
 *Speaker(s): Sam, Martin
-*Visuals: Prototype Demo, GitHub, CI/CD pipeline*
-- Show screen recordings of:
-	- Onboarding screen
-	- Login/Register
-	- Creating vault and password entry
-	- Re-entering vault after creation
-	- Shamir(?) or other cool features (Martin)
+*Visuals: GitHub, CI/CD pipeline*
 - Show GitHub organisation and source control
+- Show diagram for CI/CD pipeline
 ## 6. Difficulties & Problem Solving
 *Speaker(s): 
 *Visuals: Ubuntu, CodeScene, Differences WPF vs MAUI, Code Coverage*
@@ -55,6 +50,6 @@ Visuals: Jira board, sprint burndown, research papers*
 - Change from ChaCha to AES *Sam*
 	- After meeting with Shawn
 ## 7. Conclusion
-*Speaker(s): Martin
+*Speaker(s): Sam, Martin
 *Visuals: ...*
 - 
