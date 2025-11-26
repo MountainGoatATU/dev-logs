@@ -2,6 +2,7 @@
 2025-10-22
 Internal links: [[2025-W6.1-meeting]]
 
+
 ---
 ## Documents
 - Name: Shamir - How to Share a Secret
@@ -22,5 +23,7 @@ Internal links: [[2025-W6.1-meeting]]
 	- *Link*: https://www.geeksforgeeks.org/computer-networks/shamirs-secret-sharing-algorithm-cryptography/
 - Name: Mersenne Prime numbers
 	- *Link*: https://www.mersenne.org/
+
+
 
 

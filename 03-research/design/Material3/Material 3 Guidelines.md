@@ -2,6 +2,7 @@
 2025-11-05
 # Color & Contrast
 
+
 | Text type                                                    | Color contrast ration                 |
 | ------------------------------------------------------------ | ------------------------------------- |
 | Large text (at 14 pt bold/18 pt regular and up) and graphics | At least 3:1 against the background   |
@@ -26,6 +27,7 @@ Target spacing (spacing): 8dp
 # Notifications
 Link: https://m3.material.io/foundations/content-design/notifications
 # Input device behaviors
+
 
 | Input device action                      | Anticipated behavior                             |
 | ---------------------------------------- | ------------------------------------------------ |

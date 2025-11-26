@@ -1,15 +1,12 @@
 #presentable
-## Narrative
-The goat vault. Made by team mountain goat! Living on the mountains with mountain goats. Powered by 100% of goats. No goats were harmed during the making of this video.
-## Presentation
 *Duration: 10minutes*
-### 1. Introduction
-*Speaker: Martin
+## 1. Introduction
+*Speaker(s): Martin
 Visuals: Our faces*
 - State our names and roles
 - Explain our project idea on a high level
-### 2. Why We Came Up With the Idea
-*Speaker: Alekss
+## 2. Why We Came Up With the Idea
+*Speaker(s): Alekss
 Visuals: Survey graphs, statistics, democratic vote*
 - Explain problems with breaches and people's password security habits
 	- Stats from password manager survey
@@ -19,16 +16,16 @@ Visuals: Survey graphs, statistics, democratic vote*
 	- Easy to understand
 	- Teaches people about password security
 	- Has practical functionality
-### 3. Planning & Research
-*Speaker: Martin
+## 3. Planning & Research
+*Speaker(s): Martin
 Visuals: Jira board, sprint burndown, research papers*
 - Focused on researching encryption, KDFs, zero-knowledge, etc
 - Supervisor meetings, budgeting, feasibility checks
 - User stories and epics
 	- Jira and Agile project management methodologies
 	- Show visual of Jira board/sprint burndown
-### 4. Requirements & Technical Design
-*Speaker: Jakub*
+## 4. Requirements & Technical Design
+*Speaker(s): Jakub*
 *Visuals: ERD diagram, Architecture diagram
 - Show ERD diagram & Architecture diagram
 	- Python FastAPI backend
@@ -36,8 +33,8 @@ Visuals: Jira board, sprint burndown, research papers*
 	- MongoDB database
 	- SQLite local copy
 - Explain tech stack choices
-### 5. Development of Prototype & Demo
-*Speaker: Sam, Martin
+## 5. Development of Prototype & Demo
+*Speaker(s): Sam, Martin
 *Visuals: Prototype Demo, GitHub, CI/CD pipeline*
 - Show screen recordings of:
 	- Onboarding screen
@@ -46,8 +43,8 @@ Visuals: Jira board, sprint burndown, research papers*
 	- Re-entering vault after creation
 	- Shamir(?) or other cool features (Martin)
 - Show GitHub organisation and source control
-### 6. Difficulties & Problem Solving
-*Speaker: 
+## 6. Difficulties & Problem Solving
+*Speaker(s): 
 *Visuals: Ubuntu, CodeScene, Differences WPF vs MAUI, Code Coverage*
 - No access to AWS *Alekss*
 	- Using locally hosted server
@@ -57,12 +54,7 @@ Visuals: Jira board, sprint burndown, research papers*
 	- Connectivity APIs
 - Change from ChaCha to AES *Sam*
 	- After meeting with Shawn
-### 7. Conclusion
-*Speaker: Martin
+## 7. Conclusion
+*Speaker(s): Martin
 *Visuals: ...*
 - 
-## Script
-### 1. Introduction
-**Martin:** 
-### 2. Why We Came Up With the Idea
-**Aleks**

@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"7e1cc93836f57933","type":"text","text":"```mermaid\nflowchart LR\n\n%% =========================\n%% Client\n%% =========================\nsubgraph CLIENT_BOUNDARY[\"Client Trust Boundary\"]\nclass CLIENT_BOUNDARY boundary;\n\t\n    UI[\"💻 MAUI UI<br>C#\"]:::client\n    KDF_AUTH[\"🧠 Auth KDF Argon2id\"]:::crypto\n    KDF_VAULT[\"🧠 Vault KDF Argon2id\"]:::crypto\n    AES[\"🔐 AES-GCM Engine\"]:::crypto\n    SQLITE[\"🗄️ SQLite Encrypted Cache\"]:::client\n\n    UI --> KDF_AUTH\n    UI --> KDF_VAULT\n    KDF_AUTH --> AES\n    KDF_VAULT --> AES\n    AES --> SQLITE\nend\n\n%% =========================\n%% Network\n%% =========================\nINTERNET[\"🌐 Public Internet\"]\n\n%% =========================\n%% Edge / Proxy\n%% =========================\nsubgraph EDGE[\"Reverse Proxy Layer\"]\nclass EDGE boundary;\n    CADDY[\"🚪 Caddy Reverse Proxy dev-api.mountaingoat.dev\"]:::server\nend\n\n%% =========================\n%% Backend\n%% =========================\nsubgraph SERVER_BOUNDARY[\"Server Trust Boundary\"]\nclass SERVER_BOUNDARY boundary;\n\n    API[\"⚙️ FastAPI Backend<br>🐍 Python\"]:::server\n    JWT[\"🔑 JWT Signing Key\"]:::server\n\n    API --> JWT\nend\n\n%% =========================\n%% Database\n%% =========================\nsubgraph DB_BOUNDARY[\"Data Store Boundary\"]\nclass DB_BOUNDARY boundary;\n\n    MONGO[\"🍃 MongoDB Atlas users Collection\"]:::db\nend\n\n%% =========================\n%% Data Flows\n%% =========================\nCLIENT_BOUNDARY -->|HTTPS Requests| INTERNET\nINTERNET --> CADDY\nCADDY --> API\nAPI -->|MongoDB TLS| MONGO\n\n```","x":-500,"y":-300,"width":2140,"height":600},
+		{"id":"59447cf0b31d4efd","type":"text","text":"# Architecture Diagram","x":420,"y":-460,"width":300,"height":100}
+	],
+	"edges":[
+		{"id":"1449007bc789d526","fromNode":"59447cf0b31d4efd","fromSide":"bottom","toNode":"7e1cc93836f57933","toSide":"top"}
+	]
+}

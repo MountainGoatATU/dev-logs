@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"0363724962a53bc0","type":"text","text":"## GoatVaultServer\n```mermaid\nflowchart LR\n\nsubgraph Dev[\"🧑‍💻 Developer\"]\n    Code[\"Write Code\"]\n    Push[\"Push to GitHub\"]\n    Code --> Push\nend\n\nsubgraph GitHub[\"GitHub Repository\"]\n    Main[\"main branch\"]\nend\n\nsubgraph CI[\"GitHub Actions – CI\"]\n    Test[\"Run Tests (uv / pytest)\"]\n    Lint[\"Lint (Ruff)\"]\n    Build[\"Build (uv build)\"]\n    Artifacts[\"Upload Artifacts\"]\n    Coverage[\"Upload Coverage to Codecov\"]\n    Test --> Lint --> Build --> Artifacts --> Coverage\nend\n\nsubgraph CD[\"GitHub Actions – CD\"]\n    SSH[\"SSH to Ubuntu Server\"]\n    Pull[\"git pull origin main\"]\n    Sync[\"uv sync\"]\n    Restart[\"systemctl restart goatvaultserver\"]\n    Verify[\"Check service status\"]\n    SSH --> Pull --> Sync --> Restart --> Verify\nend\n\nsubgraph Server[\"Ubuntu Server\"]\n    Systemd[\"goatvaultserver (systemd)\"]\nend\n\nDev --> Push --> GitHub --> CI --> CD --> Server\nServer -->|\"Runs FastAPI\"| Systemd\n\n```","x":-1040,"y":-600,"width":1845,"height":780},
+		{"id":"828c6a8e63f00a8a","type":"text","text":"## GoatVaultClient\n```mermaid\nflowchart TB\n\nsubgraph CI_Client[\"GitHub Actions – Client Build (.NET 8 WPF)\"]\n\n    Checkout[\"Checkout repository\"]\n    SetupDotnet[\"Setup .NET 8 SDK\"]\n    Restore[\"dotnet restore\"]\n    Build[\"dotnet build --configuration Release\"]\n\n    Checkout --> SetupDotnet --> Restore --> Build\n\nend\n\n\n```","x":-694,"y":400,"width":1154,"height":260},
+		{"id":"f026180c2ca3ae2e","type":"text","text":"# CI/CD Pipelines","x":-247,"y":240,"width":260,"height":100}
+	],
+	"edges":[
+		{"id":"74025746a52b3ede","fromNode":"f026180c2ca3ae2e","fromSide":"top","toNode":"0363724962a53bc0","toSide":"bottom"},
+		{"id":"faf9f2ec8483a2e0","fromNode":"f026180c2ca3ae2e","fromSide":"bottom","toNode":"828c6a8e63f00a8a","toSide":"top"}
+	]
+}

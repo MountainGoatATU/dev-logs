@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"44480dd12ac0b4ef","type":"text","text":"# Must","x":-125,"y":-240,"width":365,"height":80,"color":"4"},
+		{"id":"8d8103f867403a59","type":"text","text":"- Master password encryption\n- Encrypted local vault storage\n- Zero-knowledge architecture\n- Cross-device syncing\n- Education section\n- Shamir secret sharing","x":-125,"y":-140,"width":365,"height":220,"color":"4"},
+		{"id":"a65f0a31070c22a3","type":"text","text":"# Should","x":280,"y":-240,"width":365,"height":80,"color":"3"},
+		{"id":"aa297afb19b0fc76","type":"text","text":"- Multi-factor authentication\n- Search bar for vault items\n- Password strength meter\n- Password generation\n- Lock vault after period of time\n- Export / import vault\n- Show / hide password toggles","x":280,"y":-140,"width":365,"height":220,"color":"3"},
+		{"id":"825824d50e416b0c","type":"text","text":"# Could","x":-125,"y":120,"width":365,"height":80,"color":"2"},
+		{"id":"1f7b9f8555988aca","type":"text","text":"- Mobile client\n- Password change reminder\n- Theme switching","x":-125,"y":220,"width":365,"height":220,"color":"2"},
+		{"id":"78e16441a52dd999","type":"text","text":"# Won't","x":280,"y":120,"width":365,"height":80,"color":"1"},
+		{"id":"ad32f968a048cb47","type":"text","text":"- Multiple vaults per user\n- Direct master password recovery","x":280,"y":220,"width":365,"height":220,"color":"1"}
+	],
+	"edges":[
+		{"id":"c3ab37919909da8a","fromNode":"825824d50e416b0c","fromSide":"bottom","toNode":"1f7b9f8555988aca","toSide":"top","toEnd":"none","color":"2"},
+		{"id":"5120f4b3bc16f07b","fromNode":"78e16441a52dd999","fromSide":"bottom","toNode":"ad32f968a048cb47","toSide":"top","toEnd":"none","color":"1"},
+		{"id":"c1c1bfe420f33bcc","fromNode":"44480dd12ac0b4ef","fromSide":"bottom","toNode":"8d8103f867403a59","toSide":"top","toEnd":"none","color":"4"},
+		{"id":"081b8eb3a082da08","fromNode":"a65f0a31070c22a3","fromSide":"bottom","toNode":"aa297afb19b0fc76","toSide":"top","toEnd":"none","color":"3"}
+	]
+}

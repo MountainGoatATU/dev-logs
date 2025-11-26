@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"b52a147b0bb3f0e6","type":"text","text":"## Registration Flow\n```mermaid\nsequenceDiagram\n    participant U as 👤 User\n    participant C as 💻 MAUI Client\n    participant A as ⚙️ FastAPI API\n    participant M as 🍃 MongoDB Atlas\n\n    U->>C: Enter email + master password\n    C->>C: Generate salts + KDF keys<br> + encrypted vault blob\n\n    C->>A: POST /v1/auth/register<br>(email, auth_salt, auth_verifier, vault blob)\n    A->>M: Insert into users collection\n    M-->>A: OK\n    A-->>C: 200 { user_id, email }\n```","x":-1120,"y":-1360,"width":1480,"height":640},
+		{"id":"916b0515a8a41b34","type":"file","file":"04-presentables/register-login-flow.md","x":400,"y":-1360,"width":720,"height":2900},
+		{"id":"f22bd50bc30cbd33","type":"text","text":"# Flow Diagrams","x":-510,"y":-1540,"width":260,"height":100},
+		{"id":"47d36294fa42973b","type":"text","text":"## Login Flow\n```mermaid\nsequenceDiagram\n    participant C as 💻 Client\n    participant A as ⚙️ API\n    participant M as 🍃 MongoDB\n\n    C->>A: POST /v1/auth/init<br>(email)\n    A->>M: Lookup user\n    M-->>A: Return { user_id, auth_salt, mfa_enabled }\n    A-->>C: Return auth_salt\n\n    C->>C: KDF(master_pw, auth_salt) → auth_key\n    C->>C: Compute auth_verifier'\n\n    C->>A: POST /v1/auth/verify<br>(auth_verifier')\n    A->>M: Compare with stored verifier\n    A-->>C: Return JWT token\n```","x":-1120,"y":-680,"width":1480,"height":840},
+		{"id":"6bcbfbc7950a2d63","type":"text","text":"## Fetch + Update Vault\n```mermaid\nsequenceDiagram\n    participant C as 💻 Client\n    participant A as ⚙️ API\n    participant M as 🍃 MongoDB\n    participant L as 🗄️ SQLite\n\n    C->>A: GET /v1/users/{id} with JWT\n    A->>M: Load user + vault blob\n    M-->>A: user document\n    A-->>C: vault blob\n\n    C->>C: KDF(master_pw, vault_salt)\n    C->>C: Decrypt vault blob\n    C->>L: Store encrypted cache\n\n    C->>C: User edits vault\n    C->>C: Re-encrypt vault blob\n\n    C->>A: PATCH /v1/users/{id}<br>(new encrypted blob)\n    A->>M: Update document\n    M-->>A: OK\n    A-->>C: Success\n```","x":-1120,"y":200,"width":1480,"height":1080}
+	],
+	"edges":[
+		{"id":"0367876adff60c7d","fromNode":"b52a147b0bb3f0e6","fromSide":"bottom","toNode":"47d36294fa42973b","toSide":"top"},
+		{"id":"a576d7c1630c3158","fromNode":"f22bd50bc30cbd33","fromSide":"bottom","toNode":"b52a147b0bb3f0e6","toSide":"top"},
+		{"id":"62fb8a30a3476486","fromNode":"47d36294fa42973b","fromSide":"bottom","toNode":"6bcbfbc7950a2d63","toSide":"top"}
+	]
+}

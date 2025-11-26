@@ -1,4 +1,6 @@
 [
   "obsidian-checklist-plugin",
-  "obsidian-livesync"
+  "obsidian-livesync",
+  "fountain-editor",
+  "obsidian-charts"
 ]
